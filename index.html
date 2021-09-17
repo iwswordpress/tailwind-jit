@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./build/styles.css">
+    <link rel="stylesheet" href="./src/styles.css">
     <title>Tailwind JIT</title>
   </head>
 
   <body>
     <div class="p-8 text-center">
-      <h1 class="text-4xl text-blue-600 font-bold">Tailwind JIT Tutorial</h1>
+      <h1 class="text-4xl text-green-600 font-bold">Tailwind JIT Tutorial</h1>
       <h2 class="text-2xl text-gray-500 font-semibold">(Just in Time)</h2>
+      <p>Ensure all components and utilities are in this to build them into build/iws.css</p>
+
     </div>
 
-    <div>
-      <button>Click me</button>
-      <button>Click me</button>
+    <div class="p-8 text-center">
+      <button class="bg-blue-600 text-white p-2 rounded">Click me</button>
+      <button class="bg-green-500 text-white p-2 rounded">Click me</button>
     </div>
 
     <div>
@@ -26,6 +28,31 @@
         <li>Play Mario Kart</li>
         <li>Do some work</li>
       </ul>
+    </div>
+    <div class="divide-x divide-yellow-500">--------------------</div>
+
+    <div class="">
+      <hr>
+      <h2 class="text-2xl font-bold ">Upcoming Events</h2>
+
+      <div class="border-2 border-gray-500 p-2 mt-2">
+
+        <div class="event-summary__content">
+          <h5 class="font-bold"><a href="#">
+              TITLE
+            </a></h5>
+          <p>
+            <a href="#">Learn more</a>
+          </p>
+        </div>
+      </div>
+
+      <p class="text-blue-500 font-bold mt-2"><a class="text-blue-500 hover:text-red-300" href="#">View All Events</a>
+      </p>
+      <p>Looking for a recap of past events?
+        <a class="text-indigo-500 hover:text-red-300 font-bold" href="#">Check out our past events archive</a>.
+      </p>
+    </div>
     </div>
   </body>
 
